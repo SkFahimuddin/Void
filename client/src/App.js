@@ -119,6 +119,8 @@ const styles = `
 
   .err-msg { font-size: 12px; color: #e24b4a; text-align: center; min-height: 16px; letter-spacing: 1px; }
 
+  .footer { position: fixed; bottom: 16px; left: 0; right: 0; text-align: center; font-size: 11px; letter-spacing: 3px; color: var(--muted); text-transform: uppercase; z-index: 1; }
+
   /* ── MAIN APP ── */
   .app-wrap { width: 100%; max-width: 700px; display: flex; flex-direction: column; gap: 0; animation: fadeUp 0.5s ease both; }
 
@@ -475,6 +477,7 @@ export default function App() {
           </div>
         )}
       </div>
+      <div className="footer">Fahim MindWorks</div>
     </>
   );
 }
